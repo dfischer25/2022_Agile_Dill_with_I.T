@@ -1,0 +1,25 @@
+.quiz-container{
+  position:relative;
+  background-color:#c1cfc5;
+  font-size:17px;
+  color:rgb(1, 19, 12);
+  height:150px;
+  margin-top:40px;
+  text-align:center;
+  font-weight:300;
+}
+
+.slide{
+ position:absolute;
+ left:0px;
+ top:40px;
+ width:100%;
+ z-index:1;
+ opacity:0;
+ transition:opacity 0.5s;
+}
+
+.active-slide{
+ opacity:1;
+ z-index:2;
+}
