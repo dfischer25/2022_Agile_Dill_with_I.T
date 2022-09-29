@@ -1,0 +1,24 @@
+body{
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+}
+
+.map{
+  display: none;
+  position: absolute;
+  top: 80px;
+  left: 3%;
+  width: 900px;
+  height: 675px;
+}
+
+#chippewa-falls-pickleball-courts {
+  display: block;
+}
+
+section{
+  position: absolute;
+  left: 3%;
+  top: 40px;
+}
