@@ -2,21 +2,85 @@
 <head>
   <meta charset="UTF-8">
   <title>Pickleball Rules</title>
-  <link rel="stylesheet" href="css/pickleball_eh.css">
+  <link rel="stylesheet" href="css/rules.css">
 </head>
 
 <body>
 
     <h1>Rules of Pickleball</h1>
 
+    <nav>
+        <a href="https://dfischer25.github.io/2022_Agile_Dill_with_I.T/rules.html">Rules</a> |
+        <a href="https://dfischer25.github.io/2022_Agile_Dill_with_I.T/map.html">Map</a> |
+        <a href="https://dfischer25.github.io/2022_Agile_Dill_with_I.T/index_eh.html">Facts Quiz</a>
+      </nav> 
+
     <h3>Pickleball Basics</h3>
-    <p>
-        Pickleball has many similarities to tennis. Similar to tennis, Pickleball can be played as either singles or doubles 
-        and when serving in pickleball you must serve to the box that is kiddy corner from where you are serving. Unlike tennis,
-        you serve underhand in pickleball. 
-    </p>
+    <div>
+      <p>
+        Pickleball has many similarities to tennis. The most obvious difference is the size of the court. Pickleball is played on a that
+        is 44 feet long and 20 feet wide. Another difference is <span id="equipment" onmouseover="showEquip()">the equipment</span>. Pickleball is played with small wooden or plastic paddles
+        and a ball the size of a tennis ball but similar in material to a wiffle ball. It is the same dimensions as a badminton court.
+        Similar to tennis, Pickleball can be played as either singles or doubles. In pickleball, both singles and double are played on the
+        same size court. Another similarity to tennis is when serving in pickleball you must serve to the box that is kiddy corner from
+        where you are serving. Unlike tennis, you serve underhand in pickleball. The serve in pickleball is mostly used just to get the
+        point started, it is not used as much of a weapon like it is in tennis. The purpose of serving underhand is you have to hit the
+        ball upward so it is not as difficult to return. Games are normally played to 11 points and you only score by winning points when your team is serving.
+      </p>
+    <div id="wrapper">
+        <div id="rules">
+            <h3>Two Bounce Rule</h3>
+            <ul>
+                <li>When the ball is served the receiving team must let the serve bounce before they can hit it.</li>
+                <li>The serving team must also let return bounce before they are allowed to hit it.</li>
+                <li>
+                    Once each team has let the ball bounce once(the serve and the return), you are allowed to hit the ball out of
+                    the air or let it bounce.
+                </li>
+            </ul>
+            <h3>Non-volley Zone</h3>
+            <ul>
+                <li>
+                    The non-volley zone runs the width of the court. It starts at the net on each side of the court and extends seven
+                    feet out from the net.
+                </li>
+                <li>
+                    Players are not allowed to step into the non-volley zone and hit the ball out of the air. This prevents players from
+                    standing right over the net and smashing the ball
+                </li>
+                <li>
+                    A player is allowed to step into the non-volley zone and hit the ball as long as they let it bounce before they hit it.
+                </li>
+            </ul>
+        </div>
 
-  <script src="js/pickleball_eh.js"></script>
+        <div id="resources">
+            <h3>Other Resources</h3>
+            <p>How To Play</p>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=tPZapNDO7nk">Beginner's Guide To Pickleball</a></li>
+                <li><a href="https://www.youtube.com/watch?v=oyDqc-I-yDw">Court Dimensions</a></li>
+                <li><a href="https://www.youtube.com/watch?v=E2oPdIDV5nc">Rules Basics</a></li>
+            </ul>
+            <p>Pro Matches</p>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=gInBCHPSSQ0">Mens Doubles</a></li>
+                <li><a href="https://www.youtube.com/watch?v=lt4xPBDQH2o">Mixed Doubles</a></li>
+                <li><a href="https://www.youtube.com/watch?v=CM1VLCFoNPo">Womens Singles</a></li>
+                <li><a href="https://www.youtube.com/watch?v=yuhtVHPuFDo">Exciting Highlights</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <img src="images/equipment.jpg" alt="Equipment" class="image" id="equip">
+          </div>
+        </div>
+    </div>
 
+    <script>
+        function showEquip() {
+            document.getElementById("equip").style.visibility = "visible";
+            alert("test");
+        }
+    </script>
   
 </body>

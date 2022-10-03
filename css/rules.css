@@ -1,0 +1,38 @@
+#rules {
+    width: 45%;
+    float: left;
+
+}
+
+#resources {
+    width: 45%;
+    float: left;
+    border: 3px solid black;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color:#c1cfc5;
+}
+
+body {
+    background-color: #f1f7f3;
+}
+
+#container {
+    width: 10%;
+    height: 100px;
+}
+
+.image {
+    max-width: 10%;
+    max-height: auto;
+    visibility: hidden;
+}
