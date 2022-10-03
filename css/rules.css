@@ -20,10 +20,12 @@ h1 {
     text-align: center;
     text-decoration: underline;
     background-color:#c1cfc5;
+    padding: 0px;
 }
 
 body {
     background-color: #f1f7f3;
+    padding: 10px;
 }
 
 #container {
