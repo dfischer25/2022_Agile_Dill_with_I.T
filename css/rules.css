@@ -1,22 +1,25 @@
-#rules {
-    width: 45%;
+#images {
+    width: 65%;
     float: left;
-
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid black;
+    min-height: 320px;
 }
 
 #resources {
-    width: 45%;
+    width: 25%;
     float: left;
-    border: 3px solid black;
     margin-left: 10px;
     padding-left: 10px;
 }
 
 #wrapper {
     overflow: hidden;
+    border: 4px solid black;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     text-decoration: underline;
     background-color:#c1cfc5;
@@ -28,13 +31,15 @@ body {
     padding: 10px;
 }
 
-#container {
-    width: 10%;
-    height: 100px;
+.image {
+    width: 90%;
+    height: auto;
 }
 
-.image {
-    max-width: 10%;
-    max-height: auto;
-    visibility: hidden;
+#photos {
+    margin-right: 25px;
+}
+
+#tips {
+    margin-left: 25px;
 }

@@ -27,31 +27,41 @@
         point started, it is not used as much of a weapon like it is in tennis. The purpose of serving underhand is you have to hit the
         ball upward so it is not as difficult to return. Games are normally played to 11 points and you only score by winning points when your team is serving.
       </p>
-    <div id="wrapper">
-        <div id="rules">
-            <h3>Two Bounce Rule</h3>
-            <ul>
-                <li>When the ball is served the receiving team must let the serve bounce before they can hit it.</li>
-                <li>The serving team must also let return bounce before they are allowed to hit it.</li>
-                <li>
-                    Once each team has let the ball bounce once(the serve and the return), you are allowed to hit the ball out of
-                    the air or let it bounce.
-                </li>
-            </ul>
-            <h3>Non-volley Zone</h3>
-            <ul>
-                <li>
-                    The non-volley zone runs the width of the court. It starts at the net on each side of the court and extends seven
-                    feet out from the net.
-                </li>
-                <li>
-                    Players are not allowed to step into the non-volley zone and hit the ball out of the air. This prevents players from
-                    standing right over the net and smashing the ball
-                </li>
-                <li>
-                    A player is allowed to step into the non-volley zone and hit the ball as long as they let it bounce before they hit it.
-                </li>
-            </ul>
+      <div id="rules">
+        <h2>Two Bounce Rule</h2>
+        <ul>
+            <li>When the ball is served the receiving team must let the serve bounce before they can hit it.</li>
+            <li>The serving team must also let return bounce before they are allowed to hit it.</li>
+            <li>
+                Once each team has let the ball bounce once(the serve and the return), you are allowed to hit the ball out of
+                the air or let it bounce.
+            </li>
+        </ul>
+        <h2>Non-volley Zone</h2>
+        <ul>
+            <li>
+                The non-volley zone runs the width of the court. It starts at the net on each side of the court and extends seven
+                feet out from the net.
+            </li>
+            <li>
+                Players are not allowed to step into the non-volley zone and hit the ball out of the air. This prevents players from
+                standing right over the net and smashing the ball
+            </li>
+            <li>
+                A player is allowed to step into the non-volley zone and hit the ball as long as they let it bounce before they hit it.
+            </li>
+        </ul>
+    </div>
+      <div id="wrapper">
+             <div id="images">
+            <h3>
+                <span id="photos" onclick="showImages()">View Images</span><span id="tips" onclick="showTips()">View Tips</span>
+            </h3>
+            <p id="Info">
+                <span id="equipment" onclick="showEquip()">Equipment</span> | <span id="court" onclick="showCourt()">Court</span> 
+            </p>
+            <p id="text"></p>
+            <img src="images/equipment.jpg" alt="Equipment" class="image" id="pics">
         </div>
 
         <div id="resources">
@@ -70,17 +80,8 @@
                 <li><a href="https://www.youtube.com/watch?v=yuhtVHPuFDo">Exciting Highlights</a></li>
             </ul>
         </div>
-        <div class="container">
-            <img src="images/equipment.jpg" alt="Equipment" class="image" id="equip">
-          </div>
-        </div>
     </div>
 
-    <script>
-        /*function showEquip() {
-            document.getElementById("equip").style.visibility = "visible";
-            alert("test");
-        }*/
-    </script>
+  <script src="js/rules.js"></script>
   
 </body>
