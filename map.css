@@ -1,14 +1,15 @@
-body{
+body {
   position: absolute;
   width: 100%;
   height: fit-content;
+  background-color: #f1f7f3;
 }
 
-.map{
+.map {
   display: none;
   position: absolute;
-  top: 80px;
-  left: 3%;
+  top: 140px;
+  left: 2%;
   width: 900px;
   height: 675px;
 }
@@ -17,8 +18,11 @@ body{
   display: block;
 }
 
-section{
+section {
   position: absolute;
-  left: 3%;
-  top: 40px;
+  left: 2%;
+  top: 83px;
+  background-color: #c1cfc5;
+  width: 95%;
+  padding: 5px;
 }

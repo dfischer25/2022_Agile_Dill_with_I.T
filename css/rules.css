@@ -28,7 +28,8 @@ h1, h3 {
 
 body {
     background-color: #f1f7f3;
-    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .image {

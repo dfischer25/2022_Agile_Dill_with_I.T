@@ -1,0 +1,23 @@
+.topnav {
+  width: auto;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 15px
+}
+.topnav a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: #c1cfc5;
+  padding-top: 8px;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+  width: 120px;
+  height: 30px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
