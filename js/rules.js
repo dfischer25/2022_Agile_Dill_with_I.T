@@ -40,7 +40,11 @@ function showReturn() {
   document.getElementById("pics").style.visibility = "hidden";
 }
 
-function showServer() {
+function showServe() {
+    document.getElementById("text").innerHTML = "In pickleball, you are required to serve with an underhand motion. This is an important rule becuase " +
+      "it makes it very difficult to hit an ace (a server the opponent is unable to return). Because it is hard to hit and aceit is very " +
+      "important to try to never miss your server. There is not much reward for going for an extremely aggressive serve because it is hard to " +
+      "win the point off of it anyway. The one thing that you do want to do with your serve is try to serve deep into your opponent's side";
     document.getElementById("pics").src = "";
     document.getElementById("pics").style.visibility = "hidden";
 }
