@@ -2,8 +2,9 @@
   width: auto;
   display: flex;
   margin-left: 15px;
-  margin-top: 15px
+  margin-top: 15px;
 }
+
 .topnav a {
   display: inline-block;
   text-decoration: none;

@@ -1,10 +1,3 @@
-function selectedIndexChange() {
-  hideMaps();
-  let selectedIndex = document.getElementById('locations').value;
-  let activeMap = (document.getElementById(`${selectedIndex}`).style.display =
-    'block');
-}
-
 const hideMaps = () => {
   const maps = document.querySelectorAll('.map');
 
@@ -12,6 +5,13 @@ const hideMaps = () => {
     map.style.display = 'none';
   });
 };
+
+function selectedIndexChange() {
+  hideMaps();
+  let selectedIndex = document.getElementById('locations').value;
+  let activeMap = (document.getElementById(`${selectedIndex}`).style.display =
+    'block');
+}
 
 document
   .getElementById('locations')
