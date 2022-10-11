@@ -9,20 +9,25 @@ body {
   display: none;
   position: absolute;
   top: 140px;
-  left: 2%;
-  width: 900px;
-  height: 675px;
+  left: 15px;
+  right: 30px;
 }
 
 #chippewa-falls-pickleball-courts {
   display: block;
 }
 
-section {
+iframe {
+  min-width: calc(100vw - 46px);
+  height: calc(0.5 * calc(100vw - 46px));
+}
+
+#section {
   position: absolute;
-  left: 2%;
+  left: 15px;
+  right: 30px;
   top: 83px;
   background-color: #c1cfc5;
-  width: 95%;
+  min-width: calc(100vw - 51px);
   padding: 5px;
 }

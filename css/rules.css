@@ -40,15 +40,18 @@ body {
 
 #photos {
   margin-right: 25px;
+  cursor: pointer;
 }
 
 #tips {
   margin-left: 25px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    #wrapper, #resources {
-      width: 100%;
-    }
+  /* For mobile phones: */
+  #wrapper,
+  #resources {
+    width: 100%;
   }
+}

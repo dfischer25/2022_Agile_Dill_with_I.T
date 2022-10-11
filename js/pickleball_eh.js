@@ -40,11 +40,13 @@ function buildQuiz() {
   let output = [];
   quizData.forEach((currentQuestion, questionNum) => {
     const answers = [];
-    for (item in currentQuestion.answers) {
-      answers.push(`<label>
+    for (let item in currentQuestion.answers) {
+      if (item != null) {
+        answers.push(`<label>
         <input type="radio" name="question${questionNum}" value="${item}">
         ${item} : ${currentQuestion.answers[item]}
         </label>`);
+      }
     }
     output.push(`<div class="slide"><div class="question"> ${
       currentQuestion.question
