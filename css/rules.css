@@ -45,3 +45,10 @@ body {
 #tips {
   margin-left: 25px;
 }
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    #wrapper, #resources {
+      width: 100%;
+    }
+  }
