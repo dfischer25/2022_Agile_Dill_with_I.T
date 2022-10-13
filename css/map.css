@@ -8,7 +8,7 @@ body {
 .map {
   display: none;
   position: absolute;
-  top: 140px;
+  top: 150px;
   left: 15px;
   right: 30px;
 }
@@ -30,4 +30,10 @@ iframe {
   background-color: #c1cfc5;
   min-width: calc(100vw - 51px);
   padding: 5px;
+}
+
+#hours {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
 }
