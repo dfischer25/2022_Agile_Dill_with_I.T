@@ -1,53 +1,57 @@
 #images {
-    width: 65%;
-    float: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: 2px solid black;
-    min-height: 320px;
+  width: 65%;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 2px solid black;
+  min-height: 320px;
 }
 
 #resources {
-    width: 25%;
-    float: left;
-    margin-left: 10px;
-    padding-left: 10px;
+  width: 25%;
+  float: left;
+  margin-left: 10px;
+  padding-left: 10px;
 }
 
 #wrapper {
-    overflow: hidden;
-    border: 4px solid black;
+  overflow: hidden;
+  border: 4px solid black;
 }
 
-h1, h3 {
-    text-align: center;
-    text-decoration: underline;
-    background-color:#c1cfc5;
-    padding: 0px;
+h1,
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: #c1cfc5;
+  padding: 0;
 }
 
 body {
-    background-color: #f1f7f3;
-    padding-left: 15px;
-    padding-right: 15px;
+  background-color: #f1f7f3;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .image {
-    width: 90%;
-    height: auto;
+  width: 90%;
+  height: auto;
 }
 
 #photos {
-    margin-right: 25px;
+  margin-right: 25px;
+  cursor: pointer;
 }
 
 #tips {
-    margin-left: 25px;
+  margin-left: 25px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    #wrapper, #resources {
-      width: 100%;
-    }
+  /* For mobile phones: */
+  #wrapper,
+  #resources {
+    width: 100%;
   }
+}
