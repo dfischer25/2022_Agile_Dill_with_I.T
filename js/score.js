@@ -1,8 +1,8 @@
 let playerOne = 0;
-  let playerTwo = 0;
-  let playerOneLabel = "Player 1";
-  let playerTwoLabel = "Player 2";
-  let server = 1;
+let playerTwo = 0;
+let playerOneLabel = "Player 1";
+let playerTwoLabel = "Player 2";
+let server = 1;
 
 window.onload = (event) => {
   document.getElementById("playerOneLabel").innerHTML = playerOneLabel + " - SERVING";
