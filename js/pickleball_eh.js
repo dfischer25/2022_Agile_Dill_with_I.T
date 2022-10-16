@@ -80,6 +80,7 @@ function showResult() {
 }
 
 function showSlide(n) {
+  const slides = document.querySelectorAll('.slide');
   slides[currentSlide].classList.remove('active-slide');
   slides[n].classList.add('active-slide');
   currentSlide = n;
@@ -108,7 +109,6 @@ function showPreviousSlide() {
 }
 
 buildQuiz();
-const slides = document.querySelectorAll('.slide');
 showSlide(currentSlide);
 previousBtn.addEventListener('click', showPreviousSlide);
 nextBtn.addEventListener('click', showNextSlide);
