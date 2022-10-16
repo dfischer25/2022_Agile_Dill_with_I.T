@@ -13,6 +13,7 @@
     <a id="quiz-nav" href="Quiz.html">Quiz</a>
     <a id="calendar-nav" href="calendar.html">Event Calendar</a>
     <a id="coupon-nav" href="coupon.html">Coupon</a>
+    <a id="score-nav" href="score.html">Scorekeeper</a>
   </div>
   <link rel="stylesheet" type="text/css" href="css/navBar.css">
 
@@ -20,19 +21,21 @@
 
   <div id="score">
     <div id="player1">
-      <h3>Player 1</h3>
-      <h3>0</h3>
+      <h3 id="playerOneLabel">Player 1</h3>
+      <h3 id="playerOneScore">0</h3>
     </div>
     <div id="player2">
-        <h3>Player 2</h3>
-        <h3>0</h3>
+        <h3 id="playerTwoLabel">Player 2</h3>
+        <h3 id="playerTwoScore">0</h3>
     </div>
   </div>
   <div id="wrapper">
-    <button type="button">Click Me!</button> 
+    <button onClick="firstPlayer()" type="button">Player 1</button> 
     <h2>Who won the point</h2>
-    <button type="button">Click Me!</button> 
+    <button onClick="secondPlayer()" type="button">Player 2</button> 
   </div>
+
+  <button onClick="endGame()" type="button">End Game</button> 
 
   <script src="js/score.js"></script>
 
