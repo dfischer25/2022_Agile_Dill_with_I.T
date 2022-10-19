@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pickleball Membership Card</title>
+  <link rel="stylesheet" href="css/membership.css">
+  <link rel="icon" href="icons8-pickle-16.png">
+</head>
+
+<body>
+
+    <div class="topnav" style="margin-left: 0px;">
+        <a id="rules-nav" href="index.html">Rules</a>
+        <a id="courts-nav" href="map.html">Courts nearby</a>
+        <a id="quiz-nav" href="Quiz.html">Quiz</a>
+        <a id="calendar-nav" href="calendar.html">Event Calendar</a>
+        <a id="coupon-nav" href="coupon.html">Coupon</a>
+        <a id="score-nav" href="score.html">Scorekeeper</a>
+        
+    </div>
+    <link rel="stylesheet" type="text/css" href="css/navBar.css">
+
+    <div class="donation">
+        <p><b>Pickleball</b> was named after the dog of the game inventer.<br>  
+        <b>Pickleball</b>, the dog was lucky, but many dogs suffer as animal testing at labs.<br>
+        We can reduce or replace animal testings by funding the alternatives to animal testing research.<br>
+        <b>Pickleball the dog membership card</b> donates the fee of $5 to the beagle rescue network.
+        </p>
+    </div>
+
+    <div class="front">
+    <form>
+        <h3>Please fill in the form</h3>
+        <label>Your full name</label>
+        <input type="text" id="human" placeholder="">
+
+        <label>Your family animal's name</label>
+        <input type="text" id="animal" placeholder="">
+        
+        <label>Your family animal's species</label>
+        <input type="text" id="species" placeholder="Species...">
+
+        <label>Your family animal's age</label>
+        <input type="text" id="age" placeholder="How old...">
+
+        <label>Donor number</label>
+        <input type="number" id="num" inNum placeholder="donor num">
+
+        <label for="file" class="upload">Upload the photo</label>
+        <br><br>
+        <span>We are no different from the lab animals</span>
+        <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
+    </form>
+
+    <button type="submit" id="preview">Preview</button>
+    
+    <div class="container">
+        <canvas class="card" id="result">
+            <header id="head">
+                <div class="donor">
+                    <h4>Alternatives to animal testing research</h4>
+                    <span>Pickleball Donor Membership Card</span>
+                </div>
+                    <img src="images/cruelty_free.png" id="logo" alt="Not tested on animals logo">
+            </header>
+
+            <div class="content">
+                <img src="" id="imgDisplayed">
+                <ul>
+                    <li id="Human"></li>
+                    <li id="Animal"></li>
+                    <li id="Species"></li>
+                    <li id="Age"></li>
+                    <li>donor num<span id="Num"></span></li>
+                </ul>
+            </div>
+        </canvas>
+    </div>
+    
+    <button id="down">Download</button>
+    </div>
+    
+    <script src="js/card.js"></script>
+    
+</body>
+</html>
