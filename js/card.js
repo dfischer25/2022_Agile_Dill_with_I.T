@@ -32,14 +32,14 @@ function prev() {
     ctx.rect(0, 0, 300, 56);
     ctx.fill();
 
-    ctx.fillStyle = "#73b504";
+    ctx.fillStyle = "#fff";
     ctx.fillText("Pickleball Membership", 10, 25);
     ctx.font = "16px Arial";
     ctx.fillText("Donor Card", 15, 45);
     const logo = document.getElementById("logo");
     ctx.drawImage(logo, 230, 3, 50, 50);
 
-    ctx.fillStyle = "#000";
+    ctx.fillStyle = "#fff";
     ctx.fillText(Human.innerHTML, 110, 90);
     ctx.fillText(Animal.innerHTML, 110, 110);
     ctx.fillText(Species.innerHTML, 110, 130);
