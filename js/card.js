@@ -39,7 +39,7 @@ function prev() {
     const logo = document.getElementById("logo");
     ctx.drawImage(logo, 230, 3, 50, 50);
 
-    ctx.fillStyle = "#fff";
+    ctx.fillStyle = "#000";
     ctx.fillText(Human.innerHTML, 110, 90);
     ctx.fillText(Animal.innerHTML, 110, 110);
     ctx.fillText(Species.innerHTML, 110, 130);
