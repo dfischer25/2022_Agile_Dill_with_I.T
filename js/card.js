@@ -32,7 +32,7 @@ function prev() {
     ctx.rect(0, 0, 300, 56);
     ctx.fill();
 
-    ctx.fillStyle = "#fff";
+    ctx.fillStyle = "#73b504";
     ctx.fillText("Pickleball Membership", 10, 25);
     ctx.font = "16px Arial";
     ctx.fillText("Donor Card", 15, 45);
