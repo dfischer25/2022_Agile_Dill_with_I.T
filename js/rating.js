@@ -1,7 +1,7 @@
 function rate() {
-  var elements = document.getElementsByTagName("input")
-  var total = 0;
-  for (var i = 0; i < elements.length; i++) {
+  let elements = document.getElementsByTagName("input");
+  let total = 0;
+  for (let i = 0; i < elements.length; i++) {
     if(elements[i].value == "") {
       alert('Please enter a value between 1 and 5 for all skills');
       return;
