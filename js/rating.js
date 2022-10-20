@@ -8,10 +8,10 @@ function rate() {
     } else {
       let int = parseInt(elements[i].value);
       if(int < 1 || int > 5) {
-          alert("Please enter a value between 1 and 5 for all skills");
-          return;
+        alert("Please enter a value between 1 and 5 for all skills");
+        return;
       } else {
-          total += int;
+        total += int;
       }
     }
   }
