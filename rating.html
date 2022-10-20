@@ -22,6 +22,35 @@
   </div>
   <link rel="stylesheet" type="text/css" href="css/navBar.css">
 
-  <h1>Pickelball Scorekeeper</h1>
+  <h1>Pickelball Rating</h1>
+
+  <p>
+      Pickleball ratings are used to determine your skill level in pickleball. The ratings range from 1.0 to 5.0
+      by 0.5 increments. Enter your skill level with the different important skills required for pickleball and 
+      find our your pickleball rating. Pickleball ratings are used for tournaments to divide up brackets and also
+      for recreational play to find people to play with who are of a similiar skill level.
+  </p>
+
+  <h3 id="level"></h3>
+  <h3>Enter your skill level on a scale of 1 to 5</h3>
+  
+  <label for="serve">Serve:</label><br>
+  <input type="number" min="1" max="5" id="serve" name="serve"><br>
+  <label for="return">Return:</label><br>
+  <input type="number" id="return" name="return"><br>
+  <label for="lob">Lob:</label><br>
+  <input type="number" id="lob" name="lob"><br>
+  <label for="mobility">Mobility:</label><br>
+  <input type="number" id="mobility" name="mobility"><br>
+  <label for="dinking">Dinking:</label><br>
+  <input type="number" id="dinking" name="dinking"><br>
+  <label for="groundstroke">Groundstroke:</label><br>
+  <input type="number" id="groundstroke" name="groundstroke"><br>
+  <label for="defense">Defense:</label><br>
+  <input type="number" id="defense" name="defense"><br>
+    
+  <button onClick="rate()" type="button">End Game</button> 
+
+  <script src="js/rating.js"></script>
 
 </body>
