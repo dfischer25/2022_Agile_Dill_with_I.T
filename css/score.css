@@ -1,44 +1,44 @@
 #score {
-    overflow: hidden;
-    border: 4px solid black;
-  }
+  overflow: hidden;
+  border: 4px solid black;
+}
 
 #wrapper {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 #player1 {
-    float: left;
-    width: 50%;
-    text-align: center;
+  float: left;
+  width: 50%;
+  text-align: center;
 }
 
 #player2 {
-    float: left;
-    text-align: center;
-    width: 50%;
+  float: left;
+  text-align: center;
+  width: 50%;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    float: left;
-    text-align: center;
-    width: 50%;
+  float: left;
+  text-align: center;
+  width: 50%;
 }
 
 button {
-    float: left;
-    width: 25%;
-    position: relative;
-    top: 20px;
-    border: 2px solid black;
-    background-color: #c1cfc5;
-    font-weight: bold;
+  float: left;
+  width: 25%;
+  position: relative;
+  top: 20px;
+  border: 2px solid black;
+  background-color: #c1cfc5;
+  font-weight: bold;
 }
 
 body {
-    background-color: #f1f7f3;
+  background-color: #f1f7f3;
 }
